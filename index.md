@@ -1,5 +1,6 @@
 # Web Application Development
 
-## Practical works:
+## List of practical works
 
-- [Task 1](practical-work1/task1.html)
+- Practical work 1
+  - [Task 1](practical-work1/task1.html)
