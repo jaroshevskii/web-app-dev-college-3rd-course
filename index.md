@@ -6,3 +6,5 @@
   - [Task 1](practical-work1/task1.html)
   - [Task 2](practical-work1/task2.html)
   - [Task 3](practical-work1/task3.html)
+  - [Task 4](practical-work1/task4.html)
+  - [Task 5](practical-work1/task5.html)
