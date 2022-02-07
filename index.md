@@ -1,5 +1,3 @@
-# Web Application Development
-
 ## List of practical works
 
 - Practical work 1
