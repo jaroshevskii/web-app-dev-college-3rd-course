@@ -10,3 +10,8 @@
 - **Practical work 2**
   - [Task 1](practical-work2/task1.html)
   - [Task 2](practical-work2/task2.html)
+
+- **Practical work 2**
+  - [Task 1](practical-work3/task1.html)
+  - [Task 2](practical-work3/task2.html)
+  - [Task 3](practical-work3/task3.html)

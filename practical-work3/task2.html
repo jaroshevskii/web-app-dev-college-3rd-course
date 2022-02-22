@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Task 2</title>
+</head>
+
+<body>
+  <h1>Форма входа</h1>
+
+  <form action="https://echo.htmlacademy.ru" method="post">
+    <label for="login">Ваш логин</label>
+    <input type="text" id="login" name="Login"><br><br>
+
+    <label for="password">Ваш пароль</label>
+    <input type="password" id="password" name="Password"><br><br>
+
+    <label for="comment">Введіть Ваш кометар</label><br><br>
+    <textarea name="Comment" rows="10" cols="20">Текст коментаря</textarea><br><br>
+
+    <input type="checkbox" id="newsletter" name="Newsletter" value="newsletter" checked>
+    <label for="newsletter">Підписати Вас на розсилку?</label><br>
+
+    <p>Якака ваша стать?</p>
+    <input type="radio" id="man" name="Sex" value="man">
+    <label for="man">Чоловік</label><br>
+    <input type="radio" id="woman" name="Sex" value="woman" checked>
+    <label for="woman">Жінка</label><br>
+
+    <p>Ваш рік народження:</p>
+    <select id="year-of-birht" name="Year of birht">
+      <option value="1998">1998</option>
+      <option value="1998">1998</option>
+      <option value="1998">1998</option>
+    </select><br>
+
+    <p>Ваші улюблені дні тижня:</p>
+    <select id="days-of-week" name="Days of week" size="7" multiple>
+      <option value="monday">Понеділок</option>
+      <option value="tuesday">Вівторок</option>
+      <option value="wednesday">Середа</option>
+      <option value="thursday">Четвер</option>
+      <option value="friday">П'ятниця</option>
+      <option value="saturday">Субота</option>
+      <option value="sunday" selected>Неділя</option>
+    </select><br>
+    
+    <p>Виберіть зображення для свого аватара:</p>
+    <input type="file" id="avatar" name="Avatar"><br>
+    
+    <h2>Оплата послуг</h2>
+
+    <label for="payment-amount">Сума платежу</label>
+    <input type="number" id="payment-amount" name="Payment amount">
+    <label for="payment-amount">грн.</label><br><br>
+
+    <input type="submit" value="Відправити">
+  </form>
+</body>
+
+</html>
