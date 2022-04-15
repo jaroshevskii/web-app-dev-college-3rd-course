@@ -1,9 +1,9 @@
 ## List of practical works
 
 - **Practical work 4**
-  - [Task 1](./practical-work3/task1/index.html)
-  - [Task 2](./practical-work3/task2/index.html)
-  - [Task 3](./practical-work3/task3/index.html)
+  - [Task 1](./practical-work4/task1/index.html)
+  - [Task 2](./practical-work4/task2/index.html)
+  - [Task 3](./practical-work4/task3/index.html)
 
 - **Practical work 3**
   - [Task 1](./practical-work3/task1.html)
