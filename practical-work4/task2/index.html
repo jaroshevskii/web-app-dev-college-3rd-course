@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Task 2</title>
+</head>
+
+<body>
+  <h2>Ваша вага</h2>
+
+  <fieldset>
+    <form oninput="poundsResult.value = (kilograms.value * 2.20462).toFixed(3);
+                   quintalsResult.value = (kilograms.value / 100).toFixed(3)">
+      <p>Введите ваш вес в кг
+        <input type="number" id="kilograms" name="kilograms" value="60">
+      </p>
+      <p>Ваш вес в фунтах
+        <output name="poundsResult" for="kilograms">132</output>
+      </p>
+      <p>Ваш вес в центнерах
+        <output name="quintalsResult" for="kilograms">0.6</output>
+      </p>
+    </form>
+  </fieldset>
+
+  <h2>Калькулятор додавання двох чисел</h2>
+
+  <fieldset>
+    <h3>Введи 2 числа получи суму</h3>
+
+    <form oninput="result.value = parseInt(a.value) + parseInt(b.value);">
+      <input type="number" id="a" name="a" value="12"> +
+      <input type="number" id="b" name="b" value="4"> =
+      <output name="result" for="a b">16</output>
+    </form>
+  </fieldset>
+
+  <h2>Поточне значення тегу rang</h2>
+
+  <fieldset>
+    <h3>Сколько вы хотите заработать?</h3>
+
+    <form oninput="result.value = a.value">
+      <p>0<input type="range" id="a" name="a" value="58">100</p>
+      <output style="margin-left: 70px; color: blue" name="result" for="a">58</output>
+    </form>
+  </fieldset>
+
+  <h2>Фінансовий калькулятор, який збільшує кількість годин на годину ставку і додає податок (0.30) для отримання
+    кінцевого результату.</h2>
+
+  <form oninput="var temp = a.value * b.value;
+                 result.value = temp + (temp * c.value)">
+    <fieldset>
+      <legend>Расчитай ЗП</legend>
+
+      <p>Количество часов<input type="number" id="a" name="a" value="10"></p>
+      <p>Ставка ₴<input type="number" id="b" name="b" value="20"></p>
+      <p>Налог<input type="number" id="c" name="c" value="0.20"></p>
+      <p>Зарплпта всего<b>грн <output name="result" for="a b c">240</output></b></p>
+    </fieldset>
+
+    <input type="submit" value="Поехали">
+    <input type="reset" value="Чисто">
+  </form>
+</body>

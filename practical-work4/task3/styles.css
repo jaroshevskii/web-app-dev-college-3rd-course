@@ -1,0 +1,146 @@
+/* Global styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 512px;
+
+  margin-inline: auto;
+  padding-block: 8px;
+  padding-inline: 8px;
+
+  font-family: sans-serif;
+  background-color: whitesmoke;
+}
+
+/* Utilities */
+
+.hide {
+  display: none;
+}
+
+/* Conteiner */
+
+.conteiner {
+  margin-block: 16px;
+}
+
+/* Frame */
+
+.frame {
+  width: 100%;
+
+  margin-inline: auto;
+  padding-block-start: unset;
+  padding-block-end: 4px;
+  padding-inline: unset;
+
+  border-width: thin;
+  border-style: solid;
+  border-radius: 6px;
+  border-color: gray;
+}
+
+.frame-title {
+  margin-inline: 12px;
+}
+
+/* List */
+
+.list {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  list-style-type: none;
+  margin-block: unset;
+  padding-inline-start: unset;
+}
+
+.list-item,
+.list-item-smaller,
+.list-item-small,
+.list-item-medium,
+.list-item-large,
+.list-item-larger {
+  padding-block: 8px;
+  padding-inline: 12px;
+}
+
+.list-item-smaller {
+  width: 12.5%;
+}
+
+.list-item-small {
+  width: 37.5%;
+}
+
+.list-item,
+.list-item-medium {
+  width: 50%;
+}
+
+.list-item-large {
+  width: 62.5%;
+}
+
+.list-item-larger {
+  width: 100%;
+}
+
+/* Input, output */
+
+.input-base,
+.output-base {
+  width: 100%;
+  height: 35px;
+
+  margin-block: 2px;
+  padding: 8px;
+
+  border-width: thin;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: lightgray;
+
+  transition-property: border-color;
+  transition-duration: 0.5s;
+}
+
+.input-base:hover {
+  border-color: gray;
+}
+
+.input-textarea {
+  height: auto;
+  resize: unset;
+}
+
+.input-range {
+  width: 100%;
+}
+
+.input-color {
+  padding: 4px;
+}
+
+.input-select-myltiple {
+  height: max-content;
+  overflow-y: hidden;
+}
+
+.output-base {
+  display: block;
+  font-size: small;
+  background-color: white;
+}
+
+/* Slider */
+
+.slider {
+  display: flex;
+  margin-block: 4px;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Отзыв</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <main>
+    <h1 class="hide">Отзыв</h1>
+
+    <section class="conteiner">
+      <h2 class="hide">Личные данные</h2>
+
+      <fieldset class="frame">
+        <legend class="frame-title">Личные данные</legend>
+
+        <ul class="list">
+          <li class="list-item">
+            <label for="feedback-id">ID отзыва</label>
+
+            <input type="number" name="feedback-id" value="12345" disabled class="input-base">
+          </li>
+          <li class="list-item">
+            <label for="tourist-name">Имя путешественника</label>
+
+            <input type="text" name="tourist-name" value="Кекс" required class="input-base">
+          </li>
+        </ul>
+      </fieldset>
+    </section>
+
+    <section class="conteiner">
+      <h2 class="hide">Отзыв о поездке</h2>
+
+      <fieldset class="frame">
+        <legend class="frame-title">Отзыв о поездке</legend>
+
+        <ul class="list">
+          <li class="list-item">
+            <label for="country-of-isit">Страна везита</label>
+
+            <input type="text" name="country-of-isit" value="Норвегия" required class="input-base">
+          </li>
+          <li class="list-item">
+            <label for="city">Город</label>
+
+            <select name="city" id="city" class="input-base">
+              <option value="Осло" selected>Осло</option>
+            </select>
+          </li>
+          <li class="list-item">
+            <label for="evaluation">Оценка поездки</label>
+
+            <div class="slider">
+              <label for="travel-evaluation">0</label>
+              <input type="range" name="evaluation" id="evaluation" min="0" max="10" value="10"
+                oninput="result.value = evaluation.value" class="input-range">
+              <label for="evaluation">10</label>
+            </div>
+          </li>
+          <li class="list-item-smaller">
+            <output name="result" id="result" for="evaluation" class="output-base">10</output>
+          </li>
+          <li class="list-item-larger">
+            <label for="feedback-text">Текст отзыва</label>
+
+            <textarea name="feedback-text" id="feedback-text" required rows="5"
+              class="input-base input-textarea">Это было просто мяу!</textarea>
+          </li>
+        </ul>
+      </fieldset>
+    </section>
+
+    <section class="conteiner">
+      <h2 class="hide">Оценка отеля</h2>
+
+      <fieldset class="frame">
+        <legend class="frame-title">Оценка отеля</legend>
+
+        <ul class="list">
+          <li class="list-item">
+            <label for="name-of-hotel">Название отеля</label>
+
+            <input type="text" name="name-of-hotel" placeholder="Название по-английски" required class="input-base">
+          </li>
+          <li class="list-item">
+            <label for="date-of-duparture">Дата въезда</label>
+
+            <input type="text" name="date-of-duparture" id="date-of-duparture" placeholder="В формате дд-мм-гггг"
+              required class="input-base">
+          </li>
+          <li class="list-item-small">
+            <label for="color-bed">Цвет кроватки</label>
+
+            <input type="color" name="color-bed" id="color-bed" value="#dd0000" class="input-base input-color">
+          </li>
+          <li class="list-item-large">
+            <label for="score-of-lunches">Оценка обедов</label>
+
+            <select name="score-of-lunches" id="score-of-lunches" class="input-base">
+              <option value="Подушечки оближешь" selected>Подушечки оближешь</option>
+            </select>
+          </li>
+          <li class="list-item-larger">
+            <label for="most-delicious-fish">Самая вкусная рыба</label>
+
+            <select id="days-of-week" name="Days of week" multiple size="5" class="input-base input-select-myltiple">
+              <option value="Норвежский лосось" selected>Норвежский лосось</option>
+              <option value="Зубатка">Зубатка</option>
+              <option value="Морской окунь" selected>Морской окунь</option>
+              <option value="Карась">Карась</option>
+              <option value="Зеркальный карп">Зеркальный карп</option>
+            </select>
+          </li>
+        </ul>
+      </fieldset>
+    </section>
+  </main>
+</body>
+
+</html>
