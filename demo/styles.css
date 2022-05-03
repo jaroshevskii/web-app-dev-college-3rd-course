@@ -14,6 +14,13 @@ body {
   font-family: sans-serif;
 }
 
+footer {
+  font-family: monospace;
+  text-align: center;
+  margin-block: 48px;
+  color: gray;
+}
+
 .container {
 
   padding-block: 8px;
