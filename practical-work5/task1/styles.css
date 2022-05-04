@@ -1,0 +1,94 @@
+/* Global styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 512px;
+
+  margin-block: unset;
+  margin-inline: auto;
+  padding: 16px;
+
+  font-family: sans-serif;
+}
+
+main {
+  padding-block: 8px;
+  padding-inline: 8px;
+
+  border-radius: 8px;
+  border-width: thin;
+  border-style: solid;
+  border-color: lightgray;
+
+  box-shadow: 8px 8px 32px lightgray;
+  background-color: whitesmoke;
+}
+
+a {
+  color: inherit;
+}
+
+footer {
+  font-family: monospace;
+  text-align: center;
+  margin-block: 48px;
+  color: gray;
+}
+
+/* Utilities */
+
+.hide {
+  display: none;
+}
+
+/* Paragraph */
+
+.paragraph,
+.paragraph-green {
+  text-align: center;
+  color: darkgreen;
+}
+
+.paragraph-red {
+  color: darkred;
+}
+
+.paragraph-violet {
+  color: darkviolet;
+}
+
+/* Link */
+
+.link {
+  font-weight: bold;
+  font-style: italic;
+  color: darkred;
+}
+
+.link-container {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+/* List */
+
+.list {
+  color: darkgreen;
+}
+
+.list-item:last-child {
+  list-style-type: square;
+}
+
+.list-item .list-item {
+  /* list-style-type: none; */
+  color: darkviolet;
+}
+
+.list-item:last-child a {
+  color: black;
+}
