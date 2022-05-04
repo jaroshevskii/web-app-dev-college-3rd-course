@@ -2,6 +2,9 @@
 
 - **Demo** [click](./demo/index.html)
 
+- **Practical work 5**
+  - [Task 1](./practical-work5/task1/index.html)
+
 - **Practical work 4**
   - [Task 1](./practical-work4/task1/index.html)
   - [Task 2](./practical-work4/task2/index.html)
