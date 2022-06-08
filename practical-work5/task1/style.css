@@ -4,21 +4,17 @@
   box-sizing: border-box;
 }
 
-a {
-  color: inherit;
-}
-
 body {
   width: 512px;
 
   margin-block: unset;
   margin-inline: auto;
-  padding: 16px;
 
   font-family: sans-serif;
 }
 
-main {
+section {
+  margin: 16px;
   padding-block: 8px;
   padding-inline: 8px;
 
@@ -89,10 +85,10 @@ footer {
 }
 
 .list-main .list {
-  list-style-type:none;
+  list-style-type: none;
 }
 
-.list-main>li:last-child>.list{
+.list-main>li:last-child>.list {
   list-style-type: square;
 }
 
