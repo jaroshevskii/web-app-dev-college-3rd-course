@@ -1,0 +1,41 @@
+/* Global styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 512px;
+
+  margin-block: unset;
+  margin-inline: auto;
+  padding: 16px;
+
+  font-family: sans-serif;
+}
+
+main {
+  padding-block: 8px;
+  padding-inline: 8px;
+
+  border-radius: 8px;
+  border-width: thin;
+  border-style: solid;
+  border-color: lightgray;
+
+  box-shadow: 8px 8px 32px lightgray;
+  background-color: whitesmoke;
+}
+
+footer {
+  font-family: monospace;
+  text-align: center;
+  margin-block: 48px;
+  color: gray;
+}
+
+/* Utilities */
+
+.hide {
+  display: none;
+}
