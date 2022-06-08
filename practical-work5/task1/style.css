@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+a {
+  color: inherit;
+}
+
 body {
   width: 512px;
 
@@ -27,10 +31,6 @@ main {
   background-color: whitesmoke;
 }
 
-a {
-  color: inherit;
-}
-
 footer {
   font-family: monospace;
   text-align: center;
@@ -46,9 +46,13 @@ footer {
 
 /* Paragraph */
 
-.paragraph,
-.paragraph-green {
+.paragraph-green,
+.paragraph-red,
+.paragraph-violet {
   text-align: center;
+}
+
+.paragraph-green {
   color: darkgreen;
 }
 
@@ -76,19 +80,22 @@ footer {
 
 /* List */
 
-.list {
-  color: darkgreen;
-}
-
-.list-item:last-child {
-  list-style-type: square;
-}
-
-.list-item .list-item {
-  /* list-style-type: none; */
+.list-main a {
   color: darkviolet;
 }
 
-.list-item:last-child a {
-  color: black;
+.list-main>li>a {
+  color: darkgreen;
+}
+
+.list-main .list {
+  list-style-type:none;
+}
+
+.list-main>li:last-child>.list{
+  list-style-type: square;
+}
+
+.list-main>li:last-child a {
+  text-decoration: none;
 }
