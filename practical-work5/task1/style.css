@@ -5,7 +5,8 @@
 }
 
 body {
-  width: 512px;
+  /* Mobile L size */
+  width: 425px;
 
   margin-block: unset;
   margin-inline: auto;
@@ -14,7 +15,9 @@ body {
 }
 
 section {
-  margin: 16px;
+  margin-block: 24px;
+  margin-inline: 12px;
+
   padding-block: 8px;
   padding-inline: 8px;
 
