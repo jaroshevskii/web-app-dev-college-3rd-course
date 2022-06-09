@@ -5,16 +5,19 @@
 }
 
 body {
-  width: 512px;
+  /* Mobile L size */
+  width: 425px;
 
   margin-block: unset;
   margin-inline: auto;
-  padding: 16px;
 
   font-family: sans-serif;
 }
 
-main {
+section {
+  margin-block: 24px;
+  margin-inline: 12px;
+
   padding-block: 8px;
   padding-inline: 8px;
 
