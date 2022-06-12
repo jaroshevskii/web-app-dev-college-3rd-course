@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    h1+p {
+      font-size: 20px;
+    }
+
+    p>code {
+      color: red;
+    }
+
+    body {
+      animation: bounce-top 2s;
+    }
+
+    p+p code {
+      color: purple;
+    }
+
+    @keyframes bounce-top {
+      0% {
+        transform: translateY(-45px);
+        animation-timing-function: ease-in;
+        opacity: 1;
+      }
+
+      24% {
+        opacity: 1;
+      }
+
+      40% {
+        transform: translateY(-24px);
+        animation-timing-function: ease-in;
+      }
+
+      65% {
+        transform: translateY(-12px);
+        animation-timing-function: ease-in;
+      }
+
+      82% {
+        transform: translateY(-6px);
+        animation-timing-function: ease-in;
+      }
+
+      93% {
+        transform: translateY(-4px);
+        animation-timing-function: ease-in;
+      }
+
+      25%,
+      55%,
+      75%,
+      87% {
+        transform: translateY(0px);
+        animation-timing-function: ease-out;
+      }
+
+      100% {
+        transform: translateY(0px);
+        animation-timing-function: ease-out;
+        opacity: 1;
+      }
+    }
+  </style>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>TASK #2</title>
+</head>
+
+<body>
+  <h1>filter</h1>
+  <p>Метод arr.filter(callback[, thisArg]) используется для фильтрации массива через функцию.</p>
+  <p>Он создаёт новый массив, в который войдут только те элементы arr, для которых вызов callback(item, i, arr)возвратит
+    true.</p>
+  <div>
+    <h3> Например:</h3>
+    <p>
+      <code>
+                    var positiveArr = arr.filter(function(number) {
+                            return number > 0;
+                    });
+                </code>
+    </p>
+    <p><code> alert( positiveArr ); // 1,2,3 </code></p>
+  </div>
+</body>
+
+</html>
