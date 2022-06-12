@@ -1,6 +1,6 @@
 ## List of practical works
 
-- **Demos** [click](./demo/index.html)
+- **Demos**
   - [Demo 1](./demos/demo1//index.html)
   - [Demo 2](./demos/demo2/index.html)
 
