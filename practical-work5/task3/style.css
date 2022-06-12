@@ -1,0 +1,92 @@
+/* Global styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* Mobile L size */
+  width: 425px;
+
+  margin-block: unset;
+  margin-inline: auto;
+
+  font-family: sans-serif;
+}
+
+section {
+  margin-block: 24px;
+  margin-inline: 12px;
+
+  padding-block: 8px;
+  padding-inline: 8px;
+
+  border-radius: 8px;
+  border-width: thin;
+  border-style: solid;
+  border-color: lightgray;
+
+  box-shadow: 8px 8px 32px lightgray;
+  background-color: whitesmoke;
+}
+
+footer {
+  font-family: monospace;
+  text-align: center;
+  margin-block: 48px;
+  color: gray;
+}
+
+footer>a,
+footer>a:link,
+footer>a:hover,
+footer>a:focus,
+footer>a:active,
+footer>a:visited {
+  color: inherit;
+  text-decoration: unset;
+}
+
+footer>a:hover,
+footer>a:focus {
+  text-decoration: underline;
+}
+
+/* Utilities */
+
+.hide {
+  display: none;
+}
+
+/* Content section */
+
+.content-section {
+  color: whitesmoke;
+  background-color: darkgreen;
+  border-color: lightgreen;
+}
+
+/* Content list */
+
+.content-list {
+  list-style: none;
+
+  margin-block: 12px;
+  margin-inline: 6px;
+
+  padding-block: 4px;
+  padding-inline: 4px;
+
+  border-radius: 8px;
+  border-width: thin;
+  border-style: solid;
+  border-color: lightsalmon;
+
+  color: black;
+  background-color: darkorange;
+}
+
+.content-list>li {
+  margin-block: 6px;
+  margin-inline: 3px;
+}

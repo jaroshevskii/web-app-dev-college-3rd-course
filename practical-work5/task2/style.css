@@ -42,3 +42,17 @@ footer {
 .hide {
   display: none;
 }
+
+/* Others */
+
+h1+p {
+  font-size: 20px;
+}
+
+p>code {
+  color: darkred;
+}
+
+p+p>code {
+  color: darkviolet;
+}

@@ -27,7 +27,6 @@ section {
   border-color: lightgray;
 
   box-shadow: 8px 8px 32px lightgray;
-  background-color: whitesmoke;
 }
 
 footer {
@@ -87,7 +86,7 @@ footer {
   color: darkgreen;
 }
 
-.list-main .list {
+.list {
   list-style-type: none;
 }
 

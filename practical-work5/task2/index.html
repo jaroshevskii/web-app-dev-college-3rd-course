@@ -11,10 +11,24 @@
 
 <body>
   <main>
-    <h1 class="hide">Task 2</h1>
 
     <section>
-     <h1>Hello</h1>
+      <h1>Filter</h1>
+
+      <p>Метод arr.filter(callback[, thisArg]) используется для фильтрации массива через функцию.</p>
+      <p>Он создаёт новый массив, в который войдут только те элементы arr, для которых вызов callback(item, i,
+        arr)возвратит true.</p>
+
+      <h2>Например:</h2>
+
+      <p>
+        <code>
+          var positiveArr = arr.filter(function(number) {
+            return number > 0;
+          });
+   	    </code>
+      </p>
+      <p><code>alert(positiveArr); // 1,2,3</code></p>
     </section>
   </main>
 
