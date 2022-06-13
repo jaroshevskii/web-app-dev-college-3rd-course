@@ -36,6 +36,21 @@ footer {
   color: gray;
 }
 
+footer>a,
+footer>a:link,
+footer>a:hover,
+footer>a:focus,
+footer>a:active,
+footer>a:visited {
+  color: inherit;
+  text-decoration: unset;
+}
+
+footer>a:hover,
+footer>a:focus {
+  text-decoration: underline;
+}
+
 /* Utilities */
 
 .hide {
