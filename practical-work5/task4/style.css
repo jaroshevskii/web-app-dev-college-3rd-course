@@ -1,0 +1,78 @@
+/* Global styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: max-content;
+  margin-block: unset;
+  margin-inline: auto;
+}
+
+main {
+  margin: 16px;
+  padding: 8px;
+
+  background-image: url("./images/background.webp");
+  background-size: cover;
+}
+
+fieldset {
+  margin: unset;
+  padding: unset;
+
+  border-style: ridge;
+  border-width: 4px;
+  border-top-color: blue;
+  border-right-color: yellow;
+  border-bottom-color: green;
+  border-left-color: red;
+}
+
+/* Utilities */
+
+.hide {
+  display: none;
+}
+
+/* Main header */
+
+.main-header {
+  margin-block: 6px;
+
+  /* Forgive me */
+  color: red;
+}
+
+/* List */
+
+.list {
+  font-size: large;
+  color: yellow
+}
+
+/* Note */
+
+.note {
+  padding-top: 12px;
+}
+
+.note>p {
+  margin-inline: unset;
+  margin-block: 2px;
+
+  font-size: large;
+  color: blue;
+}
+
+.note-header {
+  font-size: larger;
+  color: white;
+}
+
+/* Dish image */
+
+.dish-image {
+  margin: 16px;
+}
