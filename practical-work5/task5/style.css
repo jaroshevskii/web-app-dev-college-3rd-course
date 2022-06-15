@@ -31,10 +31,6 @@ body {
   font-weight: bold;
 }
 
-.page-header.contact-phone {
-  font-style: italic;
-}
-
 .page-header,
 .page-footer {
   font-size: large;
@@ -60,6 +56,7 @@ body {
 
 .sidebar-contact-phone {
   width: max-content;
+  font-style: italic;
 }
 
 .sidebar-links>a {
