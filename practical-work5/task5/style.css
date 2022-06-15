@@ -1,0 +1,80 @@
+/* Global styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 512px;
+  margin-block: unset;
+  margin-inline: auto;
+
+  font-family: sans-serif;
+}
+
+/* Page */
+
+.page {
+  width: inherit;
+  display: inline-flex;
+}
+
+.page-content {
+  min-width: min-content;
+}
+
+.page-header {
+  text-align: center;
+}
+
+.page-header.logo {
+  font-weight: bold;
+}
+
+.page-header.contact-phone {
+  font-style: italic;
+}
+
+.page-header,
+.page-footer {
+  font-size: large;
+  color: whitesmoke;
+  background-color: #333333;
+  border-color: lightgray;
+}
+
+.page-header,
+.page-footer,
+.container {
+  margin: 16px;
+  padding-inline: 24px;
+  padding-block: 8px;
+  
+  border-style: solid;
+}
+
+.page-footer {
+  margin-top: unset;
+  min-width: max-content;
+}
+
+.sidebar-contact-phone {
+  width: max-content;
+}
+
+.sidebar-links>a {
+  display: block;
+}
+
+.container {
+  border-color: lightgray;
+  background-color: whitesmoke;
+}
+
+.container>h1 {
+  font-size: x-large;
+}
+
+.container>p {
+  font-size: small;
+}
