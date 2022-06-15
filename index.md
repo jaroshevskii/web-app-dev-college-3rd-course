@@ -10,7 +10,7 @@
   - [Task 3](./practical-work5/task3/index.html)
   - [Task 4](./practical-work5/task4/index.html)
   - [Task 4](./practical-work5/task5/index.html)
-<!--   - [Task 4](./practical-work5/task6/index.html) -->
+  - [Task 4](./practical-work5/task6/index.html)
 
 - **Practical work 4**
   - [Task 1](./practical-work4/task1/index.html)

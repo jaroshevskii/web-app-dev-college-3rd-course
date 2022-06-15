@@ -1,0 +1,50 @@
+/* Global styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 512px;
+  margin-block: unset;
+  margin-inline: auto;
+  padding: 16px;
+}
+
+fieldset {
+  border-width: thin;
+  border-color: lightgreen;
+
+  background-image: url("./images/background-checkbox.png");
+  background-repeat: no-repeat;
+  background-color: #e1e3b8;
+}
+
+legend {
+  font-size: large;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #b65b42;
+}
+
+fieldset>p {
+  font-weight: bold;
+}
+
+button {
+  margin-block: 8px;
+  color: whitesmoke;
+  border-style: solid;
+  border-color: whitesmoke;
+  background-color: #b98f5c;
+}
+
+/* Answers list */
+
+.answers-list {
+  padding-left: 128px;
+}
+
+.answer {
+  padding-block: 8px;
+}
