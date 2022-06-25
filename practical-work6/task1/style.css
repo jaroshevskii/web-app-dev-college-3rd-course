@@ -1,0 +1,32 @@
+/* Global styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: fit-content;
+  margin-block: unset;
+  margin-inline: auto;
+  padding: 16px;
+}
+
+/* Background */
+
+.background {
+  width: 1280px;
+  height: 946px;
+  background: url(./images/background.png) no-repeat;
+}
+
+/* Colect */
+
+.collect-left {
+  width: inherit;
+  height: inherit;
+
+  background-image: url(./images/3.png), url(./images/2.png), url(./images/1.png), url(./images/6.png), url(./images/4.png), url(./images/5.png);
+  background-repeat: no-repeat;
+  background-position-x: left, 270px, 242px, 900px, 750px, 950px;
+  background-position-y: bottom, 300px, 169px, 550px, 350px, 330px;
+}
