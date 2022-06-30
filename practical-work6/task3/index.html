@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 4</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <form action="" method="post">
+    <div class="form-section">
+      <label class="content-label" for="email">E-mail:</label>
+      <input class="content" type="email" name="email" id="email">
+    </div>
+
+    <div class="form-section">
+      <label class="content-label" for="password">Пароль:</label>
+      <input class="content" type="password" name="password" id="password">
+    </div>
+
+    <div class="form-section">
+      <label class="content-label" for="password-again">Пароль еще раз:</label>
+      <input class="content" type="password" name="password-again" id="password-again">
+    </div>
+
+    <div class="form-section">
+      <label class="content-label" for="first-name">Имя:</label>
+      <input class="content" type="text" name="first-name" id="first-name">
+    </div>
+
+    <div class="form-section">
+      <label class="content-label" for="last-name">Фамилия:</label>
+      <input class="content" type="text" name="last-name" id="last-name">
+    </div>
+
+    <div class="form-section">
+      <label class="content-label" for="gender-male gender-female">Пол:</label>
+      <div class="content">
+        <input type="radio" name="gender" id="gender-male">
+        <label for="gender-male">мужской</label>
+
+        <input type="radio" name="gender" id="gender-female">
+        <label for="gender-female">женский</label>
+      </div>
+    </div>
+
+    <div class="form-section">
+      <label class="content-label" for="city">Город:</label>
+      <select class="content" name="city" id="city">
+        <option value="Житомир">Житомир</option>
+        <option value="Киев">Киев</option>
+        <option value="Мариуполь">Мариуполь</option>
+      </select>
+    </div>
+
+    <div class="form-section">
+      <label class="content-label" for="about-myself">О себе:</label>
+      <textarea class="content" name="about-myself" id="about-myself" rows="5"></textarea>
+    </div>
+
+    <div class="form-section">
+      <label class="content-label" for="receive-newsletter agree-with-rules hide-profile">Соглашения:</label>
+      <div class="content">
+        <div class="agreement">
+          <input type="checkbox" name="receive-newsletter" id="receive-newsletter">
+          <label for="receive-newsletter">Получать рассылки на сайте</label>
+        </div>
+
+        <div class="agreement">
+          <input type="checkbox" name="agree-with-rules" id="agree-with-rules">
+          <label for="agree-with-rules">Соглашаюсь с правилами сайта</label>
+        </div>
+
+        <div class="agreement">
+          <input type="checkbox" name="hide-profile" id="hide-profile">
+          <label for="hide-profile">Скрыть профиль на сайте</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-section">
+      <div class="content">
+        <input type="submit" value="Зарегистрироватся">
+        <input type="reset" value="Сброс">
+      </div>
+    </div>
+  </form>
+</body>
+
+</html>
