@@ -1,0 +1,85 @@
+/* Global styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: fit-content;
+  margin-block: unset;
+  margin-inline: auto;
+  padding: 16px;
+}
+
+/* Icons list */
+
+.icons-list {
+  display:inline-flex
+}
+
+/* Icon */
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+.icon-google-plus {
+  background-color: #da0404;
+  background-image: url(./images/icons.png);
+  background-position: 0px 0px;
+}
+
+.icon-twitter {
+  background-color: #03aeda;
+  background-image: url(./images/icons.png);
+  background-position: -100px 0px;
+}
+
+.icon-mail {
+  background-color: #fca61b;
+  background-image: url(./images/icons.png);
+  background-position: -200px 0px;
+}
+
+.icon-facebook {
+  background-color: #0450da;
+  background-image: url(./images/icons.png);
+  background-position: -300px 0px;
+}
+
+.icon-wifi {
+  background-color: #f0812f;
+  background-image: url(./images/icons.png);
+  background-position: -400px 0px;
+}
+
+.icon-vk {
+  background-color: #0450da;
+  background-image: url(./images/icons.png);
+  background-position: 0px -100px;
+}
+
+.icon-email {
+  background-color: #fcd41c;
+  background-image: url(./images/icons.png);
+  background-position: -100px -100px;
+}
+
+.icon-yandex {
+  background-color: #da0404;
+  background-image: url(./images/icons.png);
+  background-position: -200px -100px;
+}
+
+.icon-edit {
+  background-color: #03aeda;
+  background-image: url(./images/icons.png);
+  background-position: -300px -100px;
+}
+
+.icon-ok {
+  background-color: #f0812f;
+  background-image: url(./images/icons.png);
+  background-position: -400px -100px;
+}
