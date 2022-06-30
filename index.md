@@ -8,9 +8,9 @@
   - [Task 1](./practical-work6/task1/index.html)
   - [Task 2](./practical-work6/task2/index.html)
   - [Task 3](./practical-work6/task3/index.html)
+  - [Task 4](./practical-work6/task4/index.html)
 
 <!--
-  - [Task 4](./practical-work6/task4/index.html)
   - [Task 5](./practical-work6/task5/index.html)
 -->
 
