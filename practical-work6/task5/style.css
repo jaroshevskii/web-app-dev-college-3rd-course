@@ -1,0 +1,59 @@
+/* Global styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 512px;
+  margin-block: unset;
+  margin-inline: auto;
+  font-family: sans-serif;
+  font-size: small;
+}
+
+/* Comment */
+
+.comment {
+  width: 100%;
+  margin: 16px;
+  display: inline-flex;
+  align-items: flex-start;
+}
+
+.comment>.content-left>.avatar {
+  margin-inline: 16px;
+  margin-block: 4px;
+  width: 128px;
+  height: 128px;
+  border-radius: 100%;
+}
+
+.comment>.content-left>.work-place {
+  margin-block: 8px;
+  text-align: center;
+  font-style: italic;
+}
+
+.comment>.content-right {
+  /* margin: 4px; */
+  padding-inline: 24px;
+  padding-block: 12px;
+
+  background-image: url(./images/quote-start.png), url(./images/quote-end.png);
+  background-repeat: no-repeat;
+  background-position: left top, right bottom;
+}
+
+.comment>.content-right>.text,
+.comment>.content-right>.autor {
+  margin: 4px;
+}
+
+.comment>.content-right>.text {
+  font-style: italic;
+}
+
+.comment>.content-right>.autor {
+  text-align: right;
+}
