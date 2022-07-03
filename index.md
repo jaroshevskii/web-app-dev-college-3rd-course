@@ -1,8 +1,9 @@
-## List of practical works
+## Demos
 
-- **Demos**
-  - [Demo 1](./demos/demo1//index.html)
-  - [Demo 2](./demos/demo2/index.html)
+- [Demo 1](./demos/demo1//index.html)
+- [Demo 2](./demos/demo2/index.html)
+
+## List of practical works
 
 <!-- - **Practical work 7**
   - [Task 1](./practical-work7/task1/index.html)
