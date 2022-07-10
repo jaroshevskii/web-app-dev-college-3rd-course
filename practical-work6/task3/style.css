@@ -6,7 +6,6 @@
 
 body {
   width: min-content;
-  /* width: 512px; */
   margin-block: unset;
   margin-inline: auto;
   padding: 16px;
