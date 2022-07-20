@@ -22,9 +22,10 @@
 
     /* Blocks */
 
-    .blocks {
-      display: inline-flex;
-      align-items: flex-start;
+    .block1,
+    .block2,
+    .block3 {
+      float: left;
     }
 
     .block1 {
@@ -41,15 +42,19 @@
       width: 128px;
       background-color: rgb(40, 205, 65);
     }
+
+    .block4 {
+      width: 768px;
+      background-color: rgb(175,82,222);
+    }
   </style>
 </head>
 
 <body>
-  <div class="blocks">
-    <div class="block1">1</div>
-    <div class="block2">2<br>text<br>text</div>
-    <div class="block3">3<br>text</div>
-  </div>
+  <div class="block1">1</div>
+  <div class="block2">2<br>text<br>text</div>
+  <div class="block3">3<br>text</div>
+  <div class="block4">4<br>text<br>text<br>text</div>
 </body>
 
 </html>
