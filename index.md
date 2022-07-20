@@ -11,6 +11,7 @@
   - [Task 3](./practical-work7/task3/)
   - [Task 4](./practical-work7/task4/)
   - [Task 5](./practical-work7/task5/)
+  - [Task 6](./practical-work7/task6/)
 
 - **Practical work 6**
   - [Task 1](./practical-work6/task1/)
