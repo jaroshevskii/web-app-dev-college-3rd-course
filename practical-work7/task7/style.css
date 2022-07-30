@@ -23,17 +23,25 @@ section,
 header,
 footer {
   text-align: center;
-  background-color: lightcyan;
+  background-color: #ffff01;
 }
 
 footer>p {
   font-size: small;
+  color: #008083;
 }
 
 header>h1 {
   font-weight: normal;
-  font-size: 48px;
+  font-size: x-large;
   margin-block: 4px;
+  color: #008083;
+}
+
+header>h1::first-letter {
+  font-weight: bold;
+  font-size: xx-large;
+  color: darkred;
 }
 
 main {
@@ -44,13 +52,15 @@ main {
 
 section {
   width: 50%;
-  background-color: lightyellow;
+  background-color: #008083;
 }
 
 section>p {
-  margin: 48px;
+  margin-block: 96px;
+  margin-inline: 16px;
   font-size: large;
   text-align: center;
+  color: #ffff01;
 }
 
 .sidebar {
@@ -58,16 +68,17 @@ section>p {
 }
 
 .menu {
-  background-color: lightpink;
+  background-color: #00ff01;
 }
 
 .menu>p {
   margin: 12px;
   font-size: small;
+  color: #008083;
 }
 
 .right-column {
-  background-color: lightgreen;
+  background-color: #01ffff;
 }
 
 .right-column>p {
