@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 16px;
+  font-family: sans-serif;
+}
+
+.content {
+  width: 512px;
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightgoldenrodyellow;
+}
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5 {
+  width: 50%;
+  height: 48px;
+  text-align: center;
+}
+
+.div1 {
+  margin-right: 50%;
+  background-color: #8dd5eb;
+}
+
+.div2 {
+  background-color: #9c8dea;
+}
+
+.div3 {
+  background-color: #ff9a9c;
+}
+
+.div4 {
+  background-color: #fed799;
+}
+
+.div5 {
+  margin-left: -50%;
+  background-color: #42eb88;
+}
