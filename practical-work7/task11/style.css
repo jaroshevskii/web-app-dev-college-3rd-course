@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 425px;
+  margin-block: unset;
+  margin-inline: auto;
+  padding: 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  margin-block: unset;
+  margin-left: 64px;
+  padding-block: 8px;
+  padding-inline: 16px;
+  list-style-type: none;
+}
+
+li {
+  padding-block: 4px;
+}
+
+.menu {
+  width: 256px;
+  color: blue;
+  background-color: yellow;
+}
+
+.menu>li>a:hover {
+  color: red;
+}
+
+.submenu>li>a:hover {
+  color: white;
+}
+
+.submenu {
+  width: 256px;
+  display: none;
+  background-color: pink;
+}
+
+.hover:hover>.submenu {
+  display: block;
+}
