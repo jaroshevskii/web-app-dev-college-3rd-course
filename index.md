@@ -18,6 +18,8 @@
 - [Task 7](/practical-work7/task7/)
 - [Task 8](/practical-work7/task8/)
 - [Task 9](/practical-work7/task9/)
+- [Task 10](/practical-work7/task10/)
+
 
 ### Practical work 6
 
