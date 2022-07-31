@@ -3,17 +3,16 @@
 }
 
 body {
+  width: 425px;
   padding: 16px;
+  margin-inline: auto;
   font-family: sans-serif;
 }
 
 .content {
-  width: 512px;
-  margin-inline: auto;
   display: flex;
   flex-wrap: wrap;
 }
-
 .div1,
 .div2,
 .div3,
