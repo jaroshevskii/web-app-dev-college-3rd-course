@@ -9,15 +9,15 @@
 
 ### Practical work 7
 
-- [Task 1](/practical-work7/task1/)
-- [Task 2](/practical-work7/task2/)
-- [Task 3](/practical-work7/task3/)
-- [Task 4](/practical-work7/task4/)
-- [Task 5](/practical-work7/task5/)
-- [Task 6](/practical-work7/task6/)
-- [Task 7](/practical-work7/task7/)
-- [Task 8](/practical-work7/task8/)
-- [Task 9](/practical-work7/task9/)
+- [Task 1](/practical-work7/task01/)
+- [Task 2](/practical-work7/task02/)
+- [Task 3](/practical-work7/task03/)
+- [Task 4](/practical-work7/task04/)
+- [Task 5](/practical-work7/task05/)
+- [Task 6](/practical-work7/task06/)
+- [Task 7](/practical-work7/task07/)
+- [Task 8](/practical-work7/task08/)
+- [Task 9](/practical-work7/task09/)
 - [Task 10](/practical-work7/task10/)
 
 
