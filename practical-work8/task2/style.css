@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: fit-content;
+  margin-block: unset;
+  margin-inline: auto;
+  font-family: sans-serif;
+}
+
+/* Reset ul */
+ul {
+  display: block;
+  list-style-type: none;
+  margin: unset;
+  padding: unset;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px;
+}
+
+.flex-item {
+  margin: 2px;
+  padding-block: 16px;
+  padding-inline: 32px;
+
+  font-size: x-large;
+  font-weight: bold;
+  
+  color: white;
+  background-color: orangered;
+}
