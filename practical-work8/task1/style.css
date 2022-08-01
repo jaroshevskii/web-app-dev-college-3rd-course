@@ -3,8 +3,9 @@
 }
 
 body {
-  min-width: fit-content;
-  margin: unset;
+  width: 768px;
+  margin-block: unset;
+  margin-inline: auto;
   padding: 8px;
   font-family: sans-serif;
 }
