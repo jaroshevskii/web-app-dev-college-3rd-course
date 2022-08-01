@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: fit-content;
+  margin: unset;
+  padding: 8px;
+  font-family: sans-serif;
+}
+
+/* Reser a */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Reset ul */
+ul {
+  display: block;
+  list-style-type: none;
+  margin: unset;
+  padding: unset;
+}
+
+/* Navigation */
+
+.navigation {
+  font-weight: bold;
+
+  border-style: solid;
+  border-width: thin;
+  border-color: darkblue;
+
+  color: white;
+  background-color: #007aff;
+}
+
+.navigation a {
+  display: block;
+  padding-block: 12px;
+  padding-inline: 8px;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+  color: #007aff;
+  background-color: white;
+}
+
+.big-link {
+  text-align: center;
+  width: min-content;
+}
+
+/* Navigation type a */
+
+.navigation-type-a {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Navigation type b */
+
+.navigation-type-b {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+/* Navigation type c */
+
+.navigation-type-c {
+  display: flex;
+  justify-content: center;
+}
+
+/* Navigation type d */
+
+.navigation-type-d {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-type-d a {
+  height: 100%;
+  border-style: solid;
+  border-width: thin;
+  border-color: darkblue;
+}
+
+/* Navigation type e */
+
+.navigation-type-e {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation-type-e a {
+  border-style: solid;
+  border-width: thin;
+  border-color: darkblue;
+}
+
+/* Navigation type f */
+
+.navigation-type-f {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.navigation-type-f a {
+  border-style: solid;
+  border-width: thin;
+  border-color: darkblue;
+}
+
+/* Navigation type g */
+
+.navigation-type-g {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.navigation-type-g a {
+  border-style: solid;
+  border-width: thin;
+  border-color: darkblue;
+}
+
+/* Navigation type h */
+
+.navigation-type-h {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Navigation type i */
+
+.navigation-type-i a {
+  border-style: solid;
+  border-width: thin;
+  border-color: darkblue;
+}
