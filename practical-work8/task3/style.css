@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: unset;
+  font-family: sans-serif;
+}
+
+/* Reser a */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Reset ul */
+ul {
+  display: block;
+  list-style-type: none;
+  margin: unset;
+  padding: unset;
+}
+
+/* Navigation */
+
+.navigation {
+  border-width: thin;
+  color: white;
+  background-color: #00bfff;
+}
+
+.navigation>li {
+  text-align: center;
+}
+
+.navigation a {
+  display: block;
+  padding-block: 12px;
+  padding-inline: 16px;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+  color: #00bfff;
+  background-color: white;
+}
+
+.navigation-mobile>li {
+  border-style: inset;
+  border-width: thin;
+  border-block-color: whitesmoke;
+}
+
+.navigation-tablet {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navigation-desktop {
+  display: flex;
+  justify-content: flex-end;
+}
