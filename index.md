@@ -13,8 +13,7 @@
 - [Task 2](./practical-work8/task2/)
 - [Task 3](./practical-work8/task3/)
 - [Task 4](./practical-work8/task4/)
-
-<!-- - [Task 5](./practical-work8/task5/) -->
+- [Task 5](./practical-work8/task5/)
 
 ### Practical work 7
 
