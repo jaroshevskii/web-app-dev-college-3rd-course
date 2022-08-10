@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 768px;
+  margin-block: unset;
+  margin-inline: auto;
+  padding: 8px;
+}
+
+ol {
+  counter-reset: section;
+  list-style-type: none;
+}
+
+ol ol {
+  font-size: small;
+  padding-left: unset;
+}
+
+li {
+  display: flex;
+  align-items: flex-start;
+}
+
+li::before {
+  counter-increment: section;
+  content: counters(section, ".") " ";
+
+  font-weight: bold;
+  
+  margin-right: 12px;
+  padding-block: 2px;
+  padding-inline: 12px;
+
+  border-style: solid;
+  border-color: yellow;
+
+  color: yellow;
+  background-color: green;
+}
+
+li:nth-child(2)::before {
+  border-color: blue;
+  color: blue;
+  background-color: yellow;
+}
+
+li>div {
+  margin-block: 8px;
+}

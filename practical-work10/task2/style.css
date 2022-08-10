@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 512px;
+  margin-block: unset;
+  margin-inline: auto;
+  padding: 8px;
+}
+
+h1 {
+  margin-block: 8px;
+  text-align: center;
+  color: red;
+}
+
+hr {
+  margin-top: 2px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  counter-reset: section;
+}
+
+.topic::before {
+  counter-increment: section;
+  content: counter(section);
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 8px;
+
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+
+  font-size: x-large;
+  font-weight: bold;
+
+  color: white;
+  background-color: aqua;
+}
