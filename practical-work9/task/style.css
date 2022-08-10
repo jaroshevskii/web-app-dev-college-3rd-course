@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: min-content;
+  max-width: 768px;
+  margin-block: unset;
+  margin-inline: auto;
+  font-family: sans-serif;
+  background-color: #9cbfff;
+}
+
+header,
+main,
+footer {
+  margin: 8px;
+}
+
+header,
+footer {
+  background-color: #064063;
+}
+
+@media screen and (min-width: 640px) {
+  header.block {
+    margin-bottom: -8px;
+  }
+}
+
+h1,
+h2 {
+  margin: unset;
+  text-align: center;
+  color: whitesmoke;
+}
+
+h1 {
+  padding: 32px;
+  text-shadow: -2px -2px #81c7e4, 2px 2px #fe1111;
+}
+
+h1::before {
+  content: "the_";
+}
+
+h1::after {
+  content: "_site";
+}
+
+footer>h2 {
+  padding: 4px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+ul {
+  list-style-type: none;
+  margin-block: unset;
+  margin-inline: unset;
+  padding-inline-start: unset;
+}
+
+.block {
+  margin-block: 8px;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 12px;
+  border-color: whitesmoke;
+}
+
+.join {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  right: 4px;
+  top: 4px;
+
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+
+  float: right;
+
+  background-color: black;
+  transition: width 0.25s;
+}
+
+
+@media screen and (min-width: 640px) {
+  .join:hover {
+    width: 160px;
+  }
+
+  .join:hover>a::after {
+    content: " US ON TELEGRAM";
+  }
+}
+
+.join>a {
+  min-width: max-content;
+  font-size: x-small;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+
+  padding: 4px;
+}
+
+.navigation a {
+  display: block;
+  margin-inline: 4px;
+  padding: 4px;
+  font-size: small;
+}
+
+.navigation a:hover {
+  color: darkred;
+}
+
+.user-email {
+  padding-block: 16px;
+  text-align: center;
+}
+
+.user-email>label {
+  display: block;
+
+  padding: 2px;
+
+  font-size: x-small;
+  font-weight: bold;
+  font-style: italic;
+
+  color: whitesmoke;
+}
+
+.user-email>input {
+  width: 196px;
+  padding-block: 8px;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: thin;
+
+  font-size: x-small;
+}
+
+.page-author {
+  padding-block: 12px;
+  text-align: center;
+  font-size: x-small;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.pictures {
+  display: grid;
+  background-color: whitesmoke;
+}
+
+.pictures>img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+@media screen and (min-width: 640px) {
+  .pictures {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pictures>img:hover {
+    transform: scale(150%);
+    transition: transform 0.5s;
+  }
+
+  .pictures>img:hover:nth-child(1) {
+    transform-origin: left top;
+  }
+
+  .pictures>img:hover:nth-child(2) {
+    transform-origin: right top;
+  }
+
+  .pictures>img:hover:nth-child(3) {
+    transform-origin: left bottom;
+  }
+
+  .pictures>img:hover:nth-child(4) {
+    transform-origin: right bottom;
+  }
+}
+
+.advertisement {
+  display: block;
+  box-shadow: inset 15px 15px 15px #ffac13;
+  background-color: whitesmoke;
+}
+
+.advertisement>h2 {
+  font-size: medium;
+  color: #ffac13;
+  padding: 32px;
+}
+
+@media screen and (min-width: 640px) {
+  .advertisement-section {
+    display: flex;
+  }
+
+  .advertisement {
+    margin-block: unset;
+    margin-inline: 8px;
+    writing-mode: vertical-rl;
+  }
+}
+
+.texts>p {
+  max-height: 256px;
+  overflow: scroll;
+  margin-block: unset;
+  padding: 6px;
+  font-size: small;
+  border-radius: 12px;
+  background-color: whitesmoke;
+}
+
+@media screen and (min-width: 640px) {
+  .texts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .texts>p:nth-child(1),
+  .texts>p:nth-child(2) {
+    margin-bottom: unset;
+  }
+}
