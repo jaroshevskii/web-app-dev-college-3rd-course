@@ -7,6 +7,11 @@
 
 ## List of practical works
 
+### Practical work 10
+
+- [Task 1](./practical-work10/task1/)
+- [Task 2](./practical-work10/task2/)
+
 ### Practical work 9
 
 - [Task](./practical-work9/task/)
