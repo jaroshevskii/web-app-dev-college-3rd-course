@@ -3,7 +3,7 @@
 }
 
 body {
-  max-width: 512px;
+  width: 512px;
   margin-block: unset;
   margin-inline: auto;
   padding: 8px;
