@@ -5,7 +5,8 @@
 }
 
 body {
-  width: 512px;
+  min-width: 320px;
+  max-width: 768px;
 
   margin-block: unset;
   margin-inline: auto;
