@@ -1,3 +1,3 @@
-# Web Application Development
+# Web App Dev (College 3rd Course)
 
-Repo with my completed tasks.
+Repository with web application development tasks (College 3rd Course).
