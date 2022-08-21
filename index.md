@@ -2,8 +2,8 @@
 
 ## Demos
 
-- [Demo 1](./demos/demo1/)
-- [Demo 2](./demos/demo2/)
+- [Demo 1. Hover example](./demos/demo1/)
+- [Demo 2. This page is jumping](./demos/demo2/)
 
 ## List of practical works
 
