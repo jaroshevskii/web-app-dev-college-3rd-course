@@ -14,4 +14,4 @@ function setPageStyle() {
 }
 
 setPageStyle();
-window.addEventListener('resize', setPageStyle);
+window.addEventListener("resize", setPageStyle);
