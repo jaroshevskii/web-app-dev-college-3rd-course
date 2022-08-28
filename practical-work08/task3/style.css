@@ -3,6 +3,7 @@
 }
 
 body {
+  min-width: 320px;
   margin: unset;
   font-family: sans-serif;
 }
