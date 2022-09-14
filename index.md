@@ -1,5 +1,3 @@
-# Web Application Development
-
 ## Demos
 
 - [Demo 1. Hover example](./demos/demo1/)
