@@ -62,19 +62,19 @@
 
 ### Practical work 3
 
-- [Task 1](./practical-work03/)
-- [Task 2](./practical-work03/)
-- [Task 3](./practical-work03/)
+- [Task 1](./practical-work03/task1/)
+- [Task 2](./practical-work03/task2/)
+- [Task 3](./practical-work03/task3/)
 
 ### Practical work 2
 
-- [Task 1](./practical-work02/)
-- [Task 2](./practical-work02/)
+- [Task 1](./practical-work02/task1/)
+- [Task 2](./practical-work02/task2/)
 
 ### Practical work 1
 
-- [Task 1](./practical-work01/)
-- [Task 2](./practical-work01/)
-- [Task 3](./practical-work01/)
-- [Task 4](./practical-work01/)
-- [Task 5](./practical-work01/)
+- [Task 1](./practical-work01/task1/)
+- [Task 2](./practical-work01/task2/)
+- [Task 3](./practical-work01/task3/)
+- [Task 4](./practical-work01/task4/)
+- [Task 5](./practical-work01/task5/)
