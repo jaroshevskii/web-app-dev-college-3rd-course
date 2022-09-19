@@ -1,3 +1,5 @@
+See also [Web app dev (college 4th course)](https://github.com/jaroshevskii/web-app-dev-college-4th-course).
+
 ## Demos
 
 - [Demo 1. Hover example](./demos/demo1/)
